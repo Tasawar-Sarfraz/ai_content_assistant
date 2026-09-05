@@ -59,7 +59,7 @@ def generate_social_content(platform, topic, audience, tone, profile):
     try:
         # Requesting generation from gemini-2.5-flash
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.6-flash",
             contents=prompt,
         )
         
